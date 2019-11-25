@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="include/css/bootstrap.min.css">
+    <link rel="stylesheet" href="include/animate.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+<header>
+    <div class="menu">
+        <div class="leftmenu">
+            <h2>YAATRA</h2>
+        </div>
+        <div class="rightmenu">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="" id="firstlist">Sign Up</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login">
+        <form action="register.php" method="post">
+            <h1 style="color: white;font-size: 30px">Register</h1>
+            <input type="text" placeholder="Username" name="username" required value="">
+            <input type="password" placeholder="Password" name="password" required value="">
+            <input type="password" placeholder="Re-enter Password" name="rpassword" required value="">
+            <input type="text" placeholder="Email" name="email" required value="">
+            <input type="text" placeholder="Place" name="place" required value="">
+            <input type="text" placeholder="country" name="country" required value="">
+            <button type="submit" class="btn btn-outline-light btn-lg">Sign Up</button>
+            <p style="color: white;padding: 20px 8px">Have an account?<a href="login.html" style="color: red; text-decoration: #0f6674">&nbsp;Log-In</a></p>
+        </form>
+    </div>
+</header>
+</body>
+</html>

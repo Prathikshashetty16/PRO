@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="include/css/bootstrap.min.css">
+    <link rel="stylesheet" href="include/animate.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<script>
+    function payed() {
+        alert("Payment Successful");
+        window.location.href="login.html";
+    }
+</script>
+<body>
+<header>
+    <div class="menu">
+        <div class="leftmenu">
+            <h2>YAATRA</h2>
+        </div>
+    </div>
+    <div class="login">
+        <h1 style="color: white;font-size: 30px;text-align: center">Payment details</h1>
+        <input type="text" id="username" placeholder="Enter card name" name="username" value="" class="form-control" required="required">
+        <input type="text" id="cardnumber" placeholder="Enter card number" name="username" value="" class="form-control" required="required">
+        <input type="text" id="ccv" placeholder="CCV number" name="username" value="" class="form-control" required="required">
+        <button style="margin-left: 170px" type="submit" class="btn btn-outline-light btn-lg" onclick="payed()">Pay</button>
+    </div>
+</header>
+</body>
+</html>

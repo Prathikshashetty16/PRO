@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    font-size: 13px;
+}
+.pro_pic
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+}
+.more {
+    display: none;
+}
+
+
+
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+#content{
+    width: 50%;
+    margin: 20px auto;
+    border: 3px solid white;
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+form div{
+    margin-top: 5px;
+}
+#img_div{
+    width: 80%;
+    padding: 5px;
+    margin: 15px auto;
+    background-color: white;
+    border: 2px solid black;
+}
+#img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    float: left;
+    margin: 5px 5px;
+    width: 300px;
+    height: 140px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+#imgli{
+    border: 1px solid black;
+    background-color: #b1dcfb;
+    width: 100%;
+    padding-top: 10px;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#imgli2{
+    border: 1px solid black;
+    background-color: #b1dcfb;
+    width: 200% ;
+    padding-top: 10px;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.anchor {
+    padding: 12px 30px;
+    border-radius: 4px;
+    word-spacing: 2px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background: dodgerblue;
+    color: white;
+    margin-left: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.anchor:hover{
+    background-color: black;
+    font-size: 15px;
+}
+
+.btnmr{
+    margin-right: 100px;
+}
+
+.anchor1 {
+    padding: 12px 30px;
+    border-radius: 4px;
+    word-spacing: 2px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background: dodgerblue;
+    color: white;
+    margin-left: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.anchor1:hover{
+    background-color: black;
+    font-size: 15px;
+}
+
+.btnmr1{
+    margin-right: 100px;
+}
+
+#img_div1{
+    width: 540px;
+    padding: 5px;
+    margin: 15px auto;
+    background-color: white;
+    border: 2px solid black;
+}
+#img_div1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#imgli1{
+    border: 1px solid black;
+    background-color: #b1dcfb;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}

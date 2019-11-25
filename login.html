@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="include/css/bootstrap.min.css">
+    <link rel="stylesheet" href="include/animate.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+<header>
+    <div class="menu">
+        <div class="leftmenu">
+            <h2>YAATRA</h2>
+        </div>
+        <div class="rightmenu">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="" id="firstlist">Login</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login">
+        <form action="login.php" method="post">
+            <h1 style="color: white;font-size: 30px">Login Form</h1>
+            <input type="text" id="username" placeholder="Username" name="username" value="" class="form-control" required="required">
+            <input type="password" id="password" placeholder="Password" name="password" value="" class="form-control" required="required">
+            <button type="submit" class="btn btn-outline-light">LogIn</button>
+            <p style="color: white;padding: 20px 8px">Don't have account?<a href="register.html" style="color: red; text-decoration: #0f6674">&nbsp;Sign-Up</a></p>
+        </form>
+    </div>
+</header>
+</body>
+</html>
